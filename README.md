@@ -1,24 +1,12 @@
-# Arisu Keyboard PCB
-アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
+# Arira Keyboard PCB
+Arira (아릴아) PCB designed using KiCad. This project is forked from FateNozomi's [Arisu (アリス) PCB](https://github.com/FateNozomi/arisu-pcb) design, which in turn had a layout inspired by Lyn's EM7 and TGR Alice with some modification.
 
-Key differences:
-- I removed the extra [B] key on the right half and shifted the [NM,.?] row to the left by 0.25U.
-- Shifted the 3 keys to the right and added arrow keys.
-- Tweaked the bottom so that the 1.5U keys doesn't protrude out a little.
+This layout is designed to be a smaller (40-50%), symmetrical version of Arisu. Hence the name "Arira (아릴아)" which is also symmetrical in both English/Latin and Korean/Hangul. The symmetrical layout is intended to improve ergonomics and make the layout more friendly to users of a familiar with split-ergo keyboards. The modifier keys have been chosen to strike a balance between asthetics, symmetry, and compatibility with common existing 40-50% keyboard layouts.
 
-Shifting the [NM,.?] row to the left by 0.25U required quite some work on the arrangement of keys for the right half.
-As a result, this does not give the same typing experience as Lyn's EM7 and TGR Alice.
-Lyn's EM7 and TGR Alice uses the home row as the center point to vertically align both halves while I used the number row instead.
-Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
-
-Disclaimer: Use these files at your own risk.
-
-![Arisu](https://i.imgur.com/knt518E.jpg)
-![Arisu-top](https://i.imgur.com/wsqCuEu.jpg)
-![アリス](https://i.redd.it/n80mvj5v7ji21.jpg)
+Huge shoutout to FateNozomi who made their work available under the MIT license. This project preserves their original license without modification. Feel free to modify Arira as you choose and use it for any purpose.
 
 ## Gerber Files
-Download the gerber files under [releases](https://github.com/FateNozomi/arisu-pcb/releases).
+Download the gerber files under [releases](https://github.com/FrancisUsher/arira-pcb/releases).
 
 ## Assembly
 For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.
