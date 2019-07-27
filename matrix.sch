@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:arisu-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,33 +14,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 950  1950 0    50   3State ~ 0
+Text HLabel 950  2950 0    50   3State ~ 0
 row0
 Text HLabel 1850 750  1    50   3State ~ 0
 col1
 Text HLabel 2500 750  1    50   3State ~ 0
 col2
-Text HLabel 950  2950 0    50   3State ~ 0
-row1
 Text HLabel 950  3950 0    50   3State ~ 0
-row2
+row1
 Text HLabel 950  4950 0    50   3State ~ 0
-row3
+row2
 Text HLabel 950  5950 0    50   3State ~ 0
-row4
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5C51EE71
-P 1400 1600
-F 0 "SW1" H 1400 1885 50  0000 C CNN
-F 1 "SW_Push" H 1400 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 1400 1800 50  0001 C CNN
-F 3 "" H 1400 1800 50  0001 C CNN
-	1    1400 1600
-	1    0    0    -1  
-$EndComp
-Text HLabel 1200 750  1    50   3State ~ 0
-col0
+row3
 Text HLabel 3150 750  1    50   3State ~ 0
 col3
 Text HLabel 3800 750  1    50   3State ~ 0
@@ -65,30 +50,6 @@ Text HLabel 9650 750  1    50   3State ~ 0
 col13
 Text HLabel 10300 750  1    50   3State ~ 0
 col14
-$Comp
-L Device:D D1
-U 1 1 5C51FBF3
-P 1600 1750
-F 0 "D1" V 1650 1950 50  0000 R CNN
-F 1 "D" V 1550 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 1600 1750 50  0001 C CNN
-F 3 "~" H 1600 1750 50  0001 C CNN
-	1    1600 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW6
-U 1 1 5C51FC52
-P 2050 1600
-F 0 "SW6" H 2050 1885 50  0000 C CNN
-F 1 "SW_Push" H 2050 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 2050 1800 50  0001 C CNN
-F 3 "" H 2050 1800 50  0001 C CNN
-	1    2050 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  1950 1600 1950
 Wire Wire Line
 	950  2950 1600 2950
 $Comp
@@ -115,19 +76,6 @@ F 3 "~" H 1600 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 2900 1600 2950
-Wire Wire Line
-	1600 1900 1600 1950
-$Comp
-L Device:D D6
-U 1 1 5C52049A
-P 2250 1750
-F 0 "D6" V 2300 1950 50  0000 R CNN
-F 1 "D" V 2200 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 2250 1750 50  0001 C CNN
-F 3 "~" H 2250 1750 50  0001 C CNN
-	1    2250 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW7
 U 1 1 5C5205B0
@@ -284,14 +232,7 @@ Wire Wire Line
 	2250 4900 2250 4950
 Wire Wire Line
 	2250 3900 2250 3950
-Wire Wire Line
-	2250 1900 2250 1950
-Connection ~ 1200 1600
-Wire Wire Line
-	1200 750  1200 1600
 Connection ~ 1200 2600
-Wire Wire Line
-	1200 1600 1200 2600
 Connection ~ 1200 3600
 Wire Wire Line
 	1200 2600 1200 3600
@@ -301,33 +242,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 3600 1850 4600
 Connection ~ 1850 2600
-Wire Wire Line
-	1850 1600 1850 2600
-Connection ~ 1850 1600
-Wire Wire Line
-	1850 750  1850 1600
-$Comp
-L Switch:SW_Push SW10
-U 1 1 5C63DAF2
-P 2700 1600
-F 0 "SW10" H 2700 1885 50  0000 C CNN
-F 1 "SW_Push" H 2700 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 2700 1800 50  0001 C CNN
-F 3 "" H 2700 1800 50  0001 C CNN
-	1    2700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 5C63DAFA
-P 2900 1750
-F 0 "D10" V 2950 1950 50  0000 R CNN
-F 1 "D" V 2850 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 2900 1750 50  0001 C CNN
-F 3 "~" H 2900 1750 50  0001 C CNN
-	1    2900 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW11
 U 1 1 5C63DB01
@@ -426,39 +340,10 @@ Wire Wire Line
 	2900 4900 2900 4950
 Wire Wire Line
 	2900 3900 2900 3950
-Wire Wire Line
-	2900 1900 2900 1950
 Connection ~ 2500 4600
 Wire Wire Line
 	2500 3600 2500 4600
 Connection ~ 2500 2600
-Wire Wire Line
-	2500 1600 2500 2600
-Connection ~ 2500 1600
-Wire Wire Line
-	2500 750  2500 1600
-$Comp
-L Switch:SW_Push SW15
-U 1 1 5C63E34D
-P 3350 1600
-F 0 "SW15" H 3350 1885 50  0000 C CNN
-F 1 "SW_Push" H 3350 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 3350 1800 50  0001 C CNN
-F 3 "" H 3350 1800 50  0001 C CNN
-	1    3350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D15
-U 1 1 5C63E355
-P 3550 1750
-F 0 "D15" V 3600 1950 50  0000 R CNN
-F 1 "D" V 3500 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 3550 1750 50  0001 C CNN
-F 3 "~" H 3550 1750 50  0001 C CNN
-	1    3550 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW16
 U 1 1 5C63E35C
@@ -532,37 +417,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 3900 3550 3950
 Wire Wire Line
-	3550 1900 3550 1950
-Wire Wire Line
 	3150 3600 3150 4600
 Connection ~ 3150 2600
-Wire Wire Line
-	3150 1600 3150 2600
-Connection ~ 3150 1600
-Wire Wire Line
-	3150 750  3150 1600
-$Comp
-L Switch:SW_Push SW19
-U 1 1 5C63F108
-P 4000 1600
-F 0 "SW19" H 4000 1885 50  0000 C CNN
-F 1 "SW_Push" H 4000 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 4000 1800 50  0001 C CNN
-F 3 "" H 4000 1800 50  0001 C CNN
-	1    4000 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D19
-U 1 1 5C63F110
-P 4200 1750
-F 0 "D19" V 4250 1950 50  0000 R CNN
-F 1 "D" V 4150 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 4200 1750 50  0001 C CNN
-F 3 "~" H 4200 1750 50  0001 C CNN
-	1    4200 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW20
 U 1 1 5C63F117
@@ -661,39 +517,10 @@ Wire Wire Line
 	4200 4900 4200 4950
 Wire Wire Line
 	4200 3900 4200 3950
-Wire Wire Line
-	4200 1900 4200 1950
 Connection ~ 3800 4600
 Wire Wire Line
 	3800 3600 3800 4600
 Connection ~ 3800 2600
-Wire Wire Line
-	3800 1600 3800 2600
-Connection ~ 3800 1600
-Wire Wire Line
-	3800 750  3800 1600
-$Comp
-L Switch:SW_Push SW24
-U 1 1 5C6405EA
-P 4650 1600
-F 0 "SW24" H 4650 1885 50  0000 C CNN
-F 1 "SW_Push" H 4650 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 4650 1800 50  0001 C CNN
-F 3 "" H 4650 1800 50  0001 C CNN
-	1    4650 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 5C6405F2
-P 4850 1750
-F 0 "D24" V 4900 1950 50  0000 R CNN
-F 1 "D" V 4800 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 4850 1750 50  0001 C CNN
-F 3 "~" H 4850 1750 50  0001 C CNN
-	1    4850 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW25
 U 1 1 5C6405F9
@@ -792,39 +619,10 @@ Wire Wire Line
 	4850 4900 4850 4950
 Wire Wire Line
 	4850 3900 4850 3950
-Wire Wire Line
-	4850 1900 4850 1950
 Connection ~ 4450 4600
 Wire Wire Line
 	4450 3600 4450 4600
 Connection ~ 4450 2600
-Wire Wire Line
-	4450 1600 4450 2600
-Connection ~ 4450 1600
-Wire Wire Line
-	4450 750  4450 1600
-$Comp
-L Switch:SW_Push SW29
-U 1 1 5C64246E
-P 5300 1600
-F 0 "SW29" H 5300 1885 50  0000 C CNN
-F 1 "SW_Push" H 5300 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 5300 1800 50  0001 C CNN
-F 3 "" H 5300 1800 50  0001 C CNN
-	1    5300 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D29
-U 1 1 5C642476
-P 5500 1750
-F 0 "D29" V 5550 1950 50  0000 R CNN
-F 1 "D" V 5450 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 5500 1750 50  0001 C CNN
-F 3 "~" H 5500 1750 50  0001 C CNN
-	1    5500 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW30
 U 1 1 5C64247D
@@ -898,37 +696,8 @@ Wire Wire Line
 Wire Wire Line
 	5500 3900 5500 3950
 Wire Wire Line
-	5500 1900 5500 1950
-Wire Wire Line
 	5100 3600 5100 4600
 Connection ~ 5100 2600
-Wire Wire Line
-	5100 1600 5100 2600
-Connection ~ 5100 1600
-Wire Wire Line
-	5100 750  5100 1600
-$Comp
-L Switch:SW_Push SW33
-U 1 1 5C644B63
-P 5950 1600
-F 0 "SW33" H 5950 1885 50  0000 C CNN
-F 1 "SW_Push" H 5950 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 5950 1800 50  0001 C CNN
-F 3 "" H 5950 1800 50  0001 C CNN
-	1    5950 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D33
-U 1 1 5C644B6B
-P 6150 1750
-F 0 "D33" V 6200 1950 50  0000 R CNN
-F 1 "D" V 6100 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6150 1750 50  0001 C CNN
-F 3 "~" H 6150 1750 50  0001 C CNN
-	1    6150 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW34
 U 1 1 5C644B72
@@ -1027,39 +796,10 @@ Wire Wire Line
 	6150 4900 6150 4950
 Wire Wire Line
 	6150 3900 6150 3950
-Wire Wire Line
-	6150 1900 6150 1950
 Connection ~ 5750 4600
 Wire Wire Line
 	5750 3600 5750 4600
 Connection ~ 5750 2600
-Wire Wire Line
-	5750 1600 5750 2600
-Connection ~ 5750 1600
-Wire Wire Line
-	5750 750  5750 1600
-$Comp
-L Switch:SW_Push SW38
-U 1 1 5C647DD0
-P 6600 1600
-F 0 "SW38" H 6600 1885 50  0000 C CNN
-F 1 "SW_Push" H 6600 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 6600 1800 50  0001 C CNN
-F 3 "" H 6600 1800 50  0001 C CNN
-	1    6600 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D38
-U 1 1 5C647DD8
-P 6800 1750
-F 0 "D38" V 6850 1950 50  0000 R CNN
-F 1 "D" V 6750 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6800 1750 50  0001 C CNN
-F 3 "~" H 6800 1750 50  0001 C CNN
-	1    6800 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW39
 U 1 1 5C647DDF
@@ -1133,37 +873,8 @@ Wire Wire Line
 Wire Wire Line
 	6800 3900 6800 3950
 Wire Wire Line
-	6800 1900 6800 1950
-Wire Wire Line
 	6400 3600 6400 4600
 Connection ~ 6400 2600
-Wire Wire Line
-	6400 1600 6400 2600
-Connection ~ 6400 1600
-Wire Wire Line
-	6400 750  6400 1600
-$Comp
-L Switch:SW_Push SW42
-U 1 1 5C64BD2C
-P 7250 1600
-F 0 "SW42" H 7250 1885 50  0000 C CNN
-F 1 "SW_Push" H 7250 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 7250 1800 50  0001 C CNN
-F 3 "" H 7250 1800 50  0001 C CNN
-	1    7250 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D42
-U 1 1 5C64BD34
-P 7450 1750
-F 0 "D42" V 7500 1950 50  0000 R CNN
-F 1 "D" V 7400 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 7450 1750 50  0001 C CNN
-F 3 "~" H 7450 1750 50  0001 C CNN
-	1    7450 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW43
 U 1 1 5C64BD3B
@@ -1262,39 +973,10 @@ Wire Wire Line
 	7450 4900 7450 4950
 Wire Wire Line
 	7450 3900 7450 3950
-Wire Wire Line
-	7450 1900 7450 1950
 Connection ~ 7050 4600
 Wire Wire Line
 	7050 3600 7050 4600
 Connection ~ 7050 2600
-Wire Wire Line
-	7050 1600 7050 2600
-Connection ~ 7050 1600
-Wire Wire Line
-	7050 750  7050 1600
-$Comp
-L Switch:SW_Push SW47
-U 1 1 5C650A9E
-P 7900 1600
-F 0 "SW47" H 7900 1885 50  0000 C CNN
-F 1 "SW_Push" H 7900 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 7900 1800 50  0001 C CNN
-F 3 "" H 7900 1800 50  0001 C CNN
-	1    7900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D47
-U 1 1 5C650AA6
-P 8100 1750
-F 0 "D47" V 8150 1950 50  0000 R CNN
-F 1 "D" V 8050 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8100 1750 50  0001 C CNN
-F 3 "~" H 8100 1750 50  0001 C CNN
-	1    8100 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW48
 U 1 1 5C650AAD
@@ -1368,37 +1050,8 @@ Wire Wire Line
 Wire Wire Line
 	8100 3900 8100 3950
 Wire Wire Line
-	8100 1900 8100 1950
-Wire Wire Line
 	7700 3600 7700 4600
 Connection ~ 7700 2600
-Wire Wire Line
-	7700 1600 7700 2600
-Connection ~ 7700 1600
-Wire Wire Line
-	7700 750  7700 1600
-$Comp
-L Switch:SW_Push SW51
-U 1 1 5C6567C5
-P 8550 1600
-F 0 "SW51" H 8550 1885 50  0000 C CNN
-F 1 "SW_Push" H 8550 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 8550 1800 50  0001 C CNN
-F 3 "" H 8550 1800 50  0001 C CNN
-	1    8550 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D51
-U 1 1 5C6567CD
-P 8750 1750
-F 0 "D51" V 8800 1950 50  0000 R CNN
-F 1 "D" V 8700 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8750 1750 50  0001 C CNN
-F 3 "~" H 8750 1750 50  0001 C CNN
-	1    8750 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW52
 U 1 1 5C6567D4
@@ -1472,37 +1125,8 @@ Wire Wire Line
 Wire Wire Line
 	8750 3900 8750 3950
 Wire Wire Line
-	8750 1900 8750 1950
-Wire Wire Line
 	8350 3600 8350 4600
 Connection ~ 8350 2600
-Wire Wire Line
-	8350 1600 8350 2600
-Connection ~ 8350 1600
-Wire Wire Line
-	8350 750  8350 1600
-$Comp
-L Switch:SW_Push SW55
-U 1 1 5C65D604
-P 9200 1600
-F 0 "SW55" H 9200 1885 50  0000 C CNN
-F 1 "SW_Push" H 9200 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 9200 1800 50  0001 C CNN
-F 3 "" H 9200 1800 50  0001 C CNN
-	1    9200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D55
-U 1 1 5C65D60C
-P 9400 1750
-F 0 "D55" V 9450 1950 50  0000 R CNN
-F 1 "D" V 9350 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 9400 1750 50  0001 C CNN
-F 3 "~" H 9400 1750 50  0001 C CNN
-	1    9400 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW56
 U 1 1 5C65D613
@@ -1575,36 +1199,7 @@ Wire Wire Line
 	9400 5900 9400 5950
 Wire Wire Line
 	9400 3900 9400 3950
-Wire Wire Line
-	9400 1900 9400 1950
 Connection ~ 9000 2600
-Wire Wire Line
-	9000 1600 9000 2600
-Connection ~ 9000 1600
-Wire Wire Line
-	9000 750  9000 1600
-$Comp
-L Switch:SW_Push SW59
-U 1 1 5C6656E6
-P 9850 1600
-F 0 "SW59" H 9850 1885 50  0000 C CNN
-F 1 "SW_Push" H 9850 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 9850 1800 50  0001 C CNN
-F 3 "" H 9850 1800 50  0001 C CNN
-	1    9850 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D59
-U 1 1 5C6656EE
-P 10050 1750
-F 0 "D59" V 10100 1950 50  0000 R CNN
-F 1 "D" V 10000 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10050 1750 50  0001 C CNN
-F 3 "~" H 10050 1750 50  0001 C CNN
-	1    10050 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW60
 U 1 1 5C6656F5
@@ -1679,37 +1274,8 @@ Wire Wire Line
 	10050 5900 10050 5950
 Wire Wire Line
 	10050 4900 10050 4950
-Wire Wire Line
-	10050 1900 10050 1950
 Connection ~ 9650 4600
 Connection ~ 9650 2600
-Wire Wire Line
-	9650 1600 9650 2600
-Connection ~ 9650 1600
-Wire Wire Line
-	9650 750  9650 1600
-$Comp
-L Switch:SW_Push SW63
-U 1 1 5C66EC6E
-P 10500 1600
-F 0 "SW63" H 10500 1885 50  0000 C CNN
-F 1 "SW_Push" H 10500 1794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 10500 1800 50  0001 C CNN
-F 3 "" H 10500 1800 50  0001 C CNN
-	1    10500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D63
-U 1 1 5C66EC76
-P 10700 1750
-F 0 "D63" V 10750 1950 50  0000 R CNN
-F 1 "D" V 10650 1900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10700 1750 50  0001 C CNN
-F 3 "~" H 10700 1750 50  0001 C CNN
-	1    10700 1750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW64
 U 1 1 5C66EC7D
@@ -1808,49 +1374,12 @@ Wire Wire Line
 	10700 4900 10700 4950
 Wire Wire Line
 	10700 3900 10700 3950
-Wire Wire Line
-	10700 1900 10700 1950
 Connection ~ 10300 4600
 Wire Wire Line
 	10300 3600 10300 4600
 Connection ~ 10300 2600
-Wire Wire Line
-	10300 1600 10300 2600
-Connection ~ 10300 1600
-Wire Wire Line
-	10300 750  10300 1600
-Text Notes 1350 1200 0    100  ~ 0
-ESC
-Text Notes 2000 1200 0    100  ~ 0
-1
-Text Notes 2650 1200 0    100  ~ 0
-2
-Text Notes 3300 1200 0    100  ~ 0
-3
-Text Notes 3950 1200 0    100  ~ 0
-4
-Text Notes 4600 1200 0    100  ~ 0
-5
-Text Notes 5250 1200 0    100  ~ 0
-6
-Text Notes 5900 1200 0    100  ~ 0
-7
 Text Notes 1350 2200 0    100  ~ 0
 TAB
-Text Notes 6550 1200 0    100  ~ 0
-8
-Text Notes 7200 1200 0    100  ~ 0
-9
-Text Notes 7850 1200 0    100  ~ 0
-10
-Text Notes 8500 1200 0    100  ~ 0
-_
-Text Notes 9150 1200 0    100  ~ 0
-+
-Text Notes 9800 1200 0    100  ~ 0
-`
-Text Notes 10450 1200 0    100  ~ 0
-|
 Text Notes 2000 2200 0    100  ~ 0
 Q
 Text Notes 2650 2200 0    100  ~ 0
@@ -1884,48 +1413,6 @@ CTRL
 Connection ~ 1600 2950
 Wire Wire Line
 	1600 2950 2250 2950
-Connection ~ 1600 1950
-Wire Wire Line
-	1600 1950 2250 1950
-Wire Wire Line
-	2250 1950 2900 1950
-Connection ~ 2250 1950
-Connection ~ 2900 1950
-Wire Wire Line
-	2900 1950 3550 1950
-Connection ~ 3550 1950
-Wire Wire Line
-	3550 1950 4200 1950
-Connection ~ 4200 1950
-Wire Wire Line
-	4200 1950 4850 1950
-Connection ~ 4850 1950
-Wire Wire Line
-	4850 1950 5500 1950
-Connection ~ 5500 1950
-Wire Wire Line
-	5500 1950 6150 1950
-Connection ~ 6150 1950
-Wire Wire Line
-	6150 1950 6800 1950
-Connection ~ 6800 1950
-Wire Wire Line
-	6800 1950 7450 1950
-Connection ~ 7450 1950
-Wire Wire Line
-	7450 1950 8100 1950
-Connection ~ 8100 1950
-Wire Wire Line
-	8100 1950 8750 1950
-Connection ~ 8750 1950
-Wire Wire Line
-	8750 1950 9400 1950
-Connection ~ 9400 1950
-Wire Wire Line
-	9400 1950 10050 1950
-Connection ~ 10050 1950
-Wire Wire Line
-	10050 1950 10700 1950
 Wire Wire Line
 	2250 2950 2900 2950
 Connection ~ 2250 2950
@@ -2178,4 +1665,36 @@ Wire Wire Line
 	2900 5950 4200 5950
 Wire Wire Line
 	1600 5950 2900 5950
+Wire Wire Line
+	1200 750  1200 2600
+Wire Wire Line
+	1850 750  1850 2600
+Wire Wire Line
+	2500 750  2500 2600
+Wire Wire Line
+	3150 750  3150 2600
+Wire Wire Line
+	3800 750  3800 2600
+Wire Wire Line
+	4450 750  4450 2600
+Wire Wire Line
+	5100 750  5100 2600
+Wire Wire Line
+	5750 750  5750 2600
+Wire Wire Line
+	6400 750  6400 2600
+Wire Wire Line
+	7050 750  7050 2600
+Wire Wire Line
+	7700 750  7700 2600
+Wire Wire Line
+	8350 750  8350 2600
+Wire Wire Line
+	9000 750  9000 2600
+Wire Wire Line
+	9650 750  9650 2600
+Wire Wire Line
+	10300 750  10300 2600
+Text HLabel 1200 750  1    50   3State ~ 0
+col0
 $EndSCHEMATC

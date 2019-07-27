@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:arisu-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -552,8 +552,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 4350 6650 4350
 Wire Wire Line
-	5100 4450 6650 4450
-Wire Wire Line
 	5100 4550 6650 4550
 Wire Wire Line
 	5100 4650 6650 4650
@@ -571,8 +569,6 @@ Entry Wire Line
 	6650 4250 6750 4350
 Entry Wire Line
 	6650 4350 6750 4450
-Entry Wire Line
-	6650 4450 6750 4550
 Entry Wire Line
 	6650 4550 6750 4650
 Entry Wire Line
@@ -593,8 +589,6 @@ Text Label 6450 4150 0    50   ~ 0
 row2
 Text Label 6450 4250 0    50   ~ 0
 row3
-Text Label 6450 4450 0    50   ~ 0
-row4
 Text Label 6450 5150 0    50   ~ 0
 col0
 Text Label 6450 5250 0    50   ~ 0
@@ -686,22 +680,21 @@ F2 "row0" T L 7500 2800 50
 F3 "row1" T L 7500 2900 50 
 F4 "row2" T L 7500 3000 50 
 F5 "row3" T L 7500 3100 50 
-F6 "row4" T L 7500 3200 50 
-F7 "col0" T L 7500 3400 50 
-F8 "col1" T L 7500 3500 50 
-F9 "col2" T L 7500 3600 50 
-F10 "col3" T L 7500 3700 50 
-F11 "col4" T L 7500 3800 50 
-F12 "col5" T L 7500 3900 50 
-F13 "col6" T L 7500 4000 50 
-F14 "col7" T L 7500 4100 50 
-F15 "col8" T L 7500 4200 50 
-F16 "col9" T L 7500 4300 50 
-F17 "col10" T L 7500 4400 50 
-F18 "col11" T L 7500 4500 50 
-F19 "col12" T L 7500 4600 50 
-F20 "col13" T L 7500 4700 50 
-F21 "col14" T L 7500 4800 50 
+F6 "col0" T L 7500 3400 50 
+F7 "col1" T L 7500 3500 50 
+F8 "col2" T L 7500 3600 50 
+F9 "col3" T L 7500 3700 50 
+F10 "col4" T L 7500 3800 50 
+F11 "col5" T L 7500 3900 50 
+F12 "col6" T L 7500 4000 50 
+F13 "col7" T L 7500 4100 50 
+F14 "col8" T L 7500 4200 50 
+F15 "col9" T L 7500 4300 50 
+F16 "col10" T L 7500 4400 50 
+F17 "col11" T L 7500 4500 50 
+F18 "col12" T L 7500 4600 50 
+F19 "col13" T L 7500 4700 50 
+F20 "col14" T L 7500 4800 50 
 $EndSheet
 Wire Wire Line
 	7500 2800 7150 2800
@@ -715,14 +708,10 @@ Entry Wire Line
 	7050 3100 7150 3000
 Entry Wire Line
 	7050 3200 7150 3100
-Entry Wire Line
-	7050 3300 7150 3200
 Wire Wire Line
 	7150 3000 7500 3000
 Wire Wire Line
 	7150 3100 7500 3100
-Wire Wire Line
-	7150 3200 7500 3200
 Entry Wire Line
 	7050 3500 7150 3400
 Entry Wire Line
@@ -1073,8 +1062,6 @@ Text Label 7200 3900 0    50   ~ 0
 col5
 Wire Wire Line
 	5100 3150 5350 3150
-Text Label 7200 3200 0    50   ~ 0
-row4
 Text Label 7200 2800 0    50   ~ 0
 row0
 Text Label 7200 2900 0    50   ~ 0
@@ -1192,16 +1179,6 @@ F 3 "~" H 8700 2900 50  0001 C CNN
 	1    8700 2900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	5750 2700 5750 3150
-Wire Bus Line
-	3550 700  3550 2100
-Wire Bus Line
-	5500 5350 5500 7400
-Wire Bus Line
-	6750 2750 6750 5800
-Wire Bus Line
-	7050 2650 7050 5800
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5C59C18D
@@ -1268,4 +1245,15 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    8700 4100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5100 4450
+Wire Bus Line
+	5750 2700 5750 3150
+Wire Bus Line
+	3550 700  3550 2100
+Wire Bus Line
+	5500 5350 5500 7400
+Wire Bus Line
+	6750 2750 6750 5800
+Wire Bus Line
+	7050 2650 7050 5800
 $EndSCHEMATC
