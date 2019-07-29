@@ -552,8 +552,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 4350 6650 4350
 Wire Wire Line
-	5100 4550 6650 4550
-Wire Wire Line
 	5100 4650 6650 4650
 Entry Wire Line
 	6650 3650 6750 3750
@@ -569,8 +567,6 @@ Entry Wire Line
 	6650 4250 6750 4350
 Entry Wire Line
 	6650 4350 6750 4450
-Entry Wire Line
-	6650 4550 6750 4650
 Entry Wire Line
 	6650 4650 6750 4750
 Entry Wire Line
@@ -615,8 +611,6 @@ Text Label 6400 3150 0    50   ~ 0
 col11
 Text Label 6400 4650 0    50   ~ 0
 col12
-Text Label 6400 4550 0    50   ~ 0
-col13
 Text Label 6400 3050 0    50   ~ 0
 col14
 Entry Wire Line
@@ -693,8 +687,6 @@ F15 "col9" T L 7500 4300 50
 F16 "col10" T L 7500 4400 50 
 F17 "col11" T L 7500 4500 50 
 F18 "col12" T L 7500 4600 50 
-F19 "col13" T L 7500 4700 50 
-F20 "col14" T L 7500 4800 50 
 $EndSheet
 Wire Wire Line
 	7500 2800 7150 2800
@@ -738,14 +730,6 @@ Entry Wire Line
 	7050 4600 7150 4500
 Entry Wire Line
 	7050 4700 7150 4600
-Entry Wire Line
-	7050 4800 7150 4700
-Entry Wire Line
-	7050 4900 7150 4800
-Wire Wire Line
-	7150 4800 7500 4800
-Wire Wire Line
-	7150 4700 7500 4700
 Wire Wire Line
 	7150 4600 7500 4600
 Wire Wire Line
@@ -1034,10 +1018,6 @@ Text Label 7200 3400 0    50   ~ 0
 col0
 Text Label 7200 3500 0    50   ~ 0
 col1
-Text Label 7200 4800 0    50   ~ 0
-col14
-Text Label 7200 4700 0    50   ~ 0
-col13
 Text Label 7200 4600 0    50   ~ 0
 col12
 Text Label 7200 4400 0    50   ~ 0
@@ -1246,6 +1226,7 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5100 4450
+NoConn ~ 5100 4550
 Wire Bus Line
 	5750 2700 5750 3150
 Wire Bus Line

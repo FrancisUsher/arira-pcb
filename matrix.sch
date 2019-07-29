@@ -46,10 +46,6 @@ Text HLabel 8350 750  1    50   3State ~ 0
 col11
 Text HLabel 9000 750  1    50   3State ~ 0
 col12
-Text HLabel 9650 750  1    50   3State ~ 0
-col13
-Text HLabel 10300 750  1    50   3State ~ 0
-col14
 Wire Wire Line
 	950  2950 1600 2950
 $Comp
@@ -1201,183 +1197,49 @@ Wire Wire Line
 	9400 3900 9400 3950
 Connection ~ 9000 2600
 $Comp
-L Switch:SW_Push SW60
-U 1 1 5C6656F5
-P 9850 2600
-F 0 "SW60" H 9850 2885 50  0000 C CNN
-F 1 "SW_Push" H 9850 2794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.50u_PCB" H 9850 2800 50  0001 C CNN
-F 3 "" H 9850 2800 50  0001 C CNN
-	1    9850 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D60
-U 1 1 5C6656FC
-P 10050 2750
-F 0 "D60" V 10100 2950 50  0000 R CNN
-F 1 "D" V 10000 2900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10050 2750 50  0001 C CNN
-F 3 "~" H 10050 2750 50  0001 C CNN
-	1    10050 2750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10050 2900 10050 2950
-$Comp
 L Switch:SW_Push SW61
 U 1 1 5C66570E
-P 9850 4600
-F 0 "SW61" H 9850 4885 50  0000 C CNN
-F 1 "SW_Push" H 9850 4794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 9850 4800 50  0001 C CNN
-F 3 "" H 9850 4800 50  0001 C CNN
-	1    9850 4600
+P 9200 4600
+F 0 "SW61" H 9200 4885 50  0000 C CNN
+F 1 "SW_Push" H 9200 4794 50  0000 C CNN
+F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 9200 4800 50  0001 C CNN
+F 3 "" H 9200 4800 50  0001 C CNN
+	1    9200 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 4600 9650 5600
 $Comp
 L Switch:SW_Push SW62
 U 1 1 5C665716
-P 9850 5600
-F 0 "SW62" H 9850 5885 50  0000 C CNN
-F 1 "SW_Push" H 9850 5794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 9850 5800 50  0001 C CNN
-F 3 "" H 9850 5800 50  0001 C CNN
-	1    9850 5600
+P 8550 5600
+F 0 "SW62" H 8550 5885 50  0000 C CNN
+F 1 "SW_Push" H 8550 5794 50  0000 C CNN
+F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 8550 5800 50  0001 C CNN
+F 3 "" H 8550 5800 50  0001 C CNN
+	1    8550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D61
 U 1 1 5C665724
-P 10050 4750
-F 0 "D61" V 10100 4950 50  0000 R CNN
-F 1 "D" V 10000 4900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10050 4750 50  0001 C CNN
-F 3 "~" H 10050 4750 50  0001 C CNN
-	1    10050 4750
+P 9400 4750
+F 0 "D61" V 9450 4950 50  0000 R CNN
+F 1 "D" V 9350 4900 50  0000 R CNN
+F 2 "Diodes_SMD:D_SOD-123" H 9400 4750 50  0001 C CNN
+F 3 "~" H 9400 4750 50  0001 C CNN
+	1    9400 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D D62
 U 1 1 5C66572B
-P 10050 5750
-F 0 "D62" V 10100 5950 50  0000 R CNN
-F 1 "D" V 10000 5900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10050 5750 50  0001 C CNN
-F 3 "~" H 10050 5750 50  0001 C CNN
-	1    10050 5750
+P 8750 5750
+F 0 "D62" V 8800 5950 50  0000 R CNN
+F 1 "D" V 8700 5900 50  0000 R CNN
+F 2 "Diodes_SMD:D_SOD-123" H 8750 5750 50  0001 C CNN
+F 3 "~" H 8750 5750 50  0001 C CNN
+	1    8750 5750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10050 5900 10050 5950
-Wire Wire Line
-	10050 4900 10050 4950
-Connection ~ 9650 4600
-Connection ~ 9650 2600
-$Comp
-L Switch:SW_Push SW64
-U 1 1 5C66EC7D
-P 10500 2600
-F 0 "SW64" H 10500 2885 50  0000 C CNN
-F 1 "SW_Push" H 10500 2794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 10500 2800 50  0001 C CNN
-F 3 "" H 10500 2800 50  0001 C CNN
-	1    10500 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D64
-U 1 1 5C66EC84
-P 10700 2750
-F 0 "D64" V 10750 2950 50  0000 R CNN
-F 1 "D" V 10650 2900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10700 2750 50  0001 C CNN
-F 3 "~" H 10700 2750 50  0001 C CNN
-	1    10700 2750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10700 2900 10700 2950
-$Comp
-L Switch:SW_Push SW65
-U 1 1 5C66EC8F
-P 10500 3600
-F 0 "SW65" H 10500 3885 50  0000 C CNN
-F 1 "SW_Push" H 10500 3794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 10500 3800 50  0001 C CNN
-F 3 "" H 10500 3800 50  0001 C CNN
-	1    10500 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW66
-U 1 1 5C66EC96
-P 10500 4600
-F 0 "SW66" H 10500 4885 50  0000 C CNN
-F 1 "SW_Push" H 10500 4794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 10500 4800 50  0001 C CNN
-F 3 "" H 10500 4800 50  0001 C CNN
-	1    10500 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10300 4600 10300 5600
-$Comp
-L Switch:SW_Push SW67
-U 1 1 5C66EC9E
-P 10500 5600
-F 0 "SW67" H 10500 5885 50  0000 C CNN
-F 1 "SW_Push" H 10500 5794 50  0000 C CNN
-F 2 "Fate_Parts:SW_Cherry_MX_1.00u_PCB" H 10500 5800 50  0001 C CNN
-F 3 "" H 10500 5800 50  0001 C CNN
-	1    10500 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D65
-U 1 1 5C66ECA5
-P 10700 3750
-F 0 "D65" V 10750 3950 50  0000 R CNN
-F 1 "D" V 10650 3900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10700 3750 50  0001 C CNN
-F 3 "~" H 10700 3750 50  0001 C CNN
-	1    10700 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D66
-U 1 1 5C66ECAC
-P 10700 4750
-F 0 "D66" V 10750 4950 50  0000 R CNN
-F 1 "D" V 10650 4900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10700 4750 50  0001 C CNN
-F 3 "~" H 10700 4750 50  0001 C CNN
-	1    10700 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D67
-U 1 1 5C66ECB3
-P 10700 5750
-F 0 "D67" V 10750 5950 50  0000 R CNN
-F 1 "D" V 10650 5900 50  0000 R CNN
-F 2 "Diodes_SMD:D_SOD-123" H 10700 5750 50  0001 C CNN
-F 3 "~" H 10700 5750 50  0001 C CNN
-	1    10700 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10700 5900 10700 5950
-Wire Wire Line
-	10700 4900 10700 4950
-Wire Wire Line
-	10700 3900 10700 3950
-Connection ~ 10300 4600
-Wire Wire Line
-	10300 3600 10300 4600
-Connection ~ 10300 2600
 Text Notes 1350 2200 0    100  ~ 0
 TAB
 Text Notes 2000 2200 0    100  ~ 0
@@ -1404,10 +1266,6 @@ Text Notes 8500 2200 0    100  ~ 0
 [
 Text Notes 9150 2200 0    100  ~ 0
 ]
-Text Notes 9800 2200 0    100  ~ 0
-BKSP
-Text Notes 10450 2200 0    100  ~ 0
-M1
 Text Notes 1350 3200 0    100  ~ 0
 CTRL
 Connection ~ 1600 2950
@@ -1446,12 +1304,6 @@ Wire Wire Line
 Connection ~ 8750 2950
 Wire Wire Line
 	8750 2950 9400 2950
-Connection ~ 9400 2950
-Wire Wire Line
-	9400 2950 10050 2950
-Connection ~ 10050 2950
-Wire Wire Line
-	10050 2950 10700 2950
 Wire Wire Line
 	2250 3950 2900 3950
 Connection ~ 2250 3950
@@ -1485,7 +1337,6 @@ Wire Wire Line
 Connection ~ 8750 3950
 Wire Wire Line
 	8750 3950 9400 3950
-Connection ~ 9400 3950
 Connection ~ 1600 4950
 Wire Wire Line
 	1600 4950 2250 4950
@@ -1520,9 +1371,6 @@ Connection ~ 8100 4950
 Wire Wire Line
 	8100 4950 8750 4950
 Connection ~ 8750 4950
-Connection ~ 10050 4950
-Wire Wire Line
-	10050 4950 10700 4950
 Connection ~ 2900 5950
 Connection ~ 4200 5950
 Wire Wire Line
@@ -1530,12 +1378,6 @@ Wire Wire Line
 Connection ~ 4850 5950
 Connection ~ 6150 5950
 Connection ~ 7450 5950
-Connection ~ 9400 5950
-Wire Wire Line
-	9400 5950 10050 5950
-Connection ~ 10050 5950
-Wire Wire Line
-	10050 5950 10700 5950
 Text Notes 2000 3200 0    100  ~ 0
 A
 Connection ~ 1850 3600
@@ -1574,9 +1416,6 @@ Wire Wire Line
 Connection ~ 9000 3600
 Wire Wire Line
 	9000 2600 9000 3600
-Connection ~ 10300 3600
-Wire Wire Line
-	10300 2600 10300 3600
 Text Notes 2650 3200 0    100  ~ 0
 S
 Text Notes 3300 3200 0    100  ~ 0
@@ -1623,8 +1462,6 @@ Text Notes 7850 4200 0    100  ~ 0
 /
 Text Notes 8500 4200 0    100  ~ 0
 SHFT
-Text Notes 9800 4200 0    100  ~ 0
-UP
 Text Notes 1350 5200 0    100  ~ 0
 CTRL
 Text Notes 2650 5200 0    100  ~ 0
@@ -1637,26 +1474,16 @@ Text Notes 7200 5200 0    100  ~ 0
 ALT
 Text Notes 5900 5200 0    100  ~ 0
 SPC
-Text Notes 9800 5200 0    100  ~ 0
+Text Notes 8450 5200 0    100  ~ 0
 DOWN
 Text Notes 9150 5200 0    100  ~ 0
 LEFT
-Text Notes 10450 5200 0    100  ~ 0
-RGHT\n
-Text Notes 10450 3200 0    100  ~ 0
-M2
-Text Notes 10450 4200 0    100  ~ 0
-M3
 Wire Wire Line
-	9650 2600 9650 4600
+	9000 3600 9000 4600
 Wire Wire Line
-	9400 3950 10700 3950
+	8750 4950 9400 4950
 Wire Wire Line
-	9000 3600 9000 5600
-Wire Wire Line
-	8750 4950 10050 4950
-Wire Wire Line
-	7450 5950 9400 5950
+	7450 5950 8750 5950
 Wire Wire Line
 	6150 5950 7450 5950
 Wire Wire Line
@@ -1691,10 +1518,21 @@ Wire Wire Line
 	8350 750  8350 2600
 Wire Wire Line
 	9000 750  9000 2600
-Wire Wire Line
-	9650 750  9650 2600
-Wire Wire Line
-	10300 750  10300 2600
 Text HLabel 1200 750  1    50   3State ~ 0
 col0
+Text Notes 9150 4200 0    100  ~ 0
+UP
+Connection ~ 9000 4600
+Wire Wire Line
+	9000 4600 9000 5600
+Wire Wire Line
+	9400 4900 9400 4950
+Wire Wire Line
+	8350 4600 8350 5600
+Connection ~ 8350 4600
+Wire Wire Line
+	8750 5900 8750 5950
+Connection ~ 8750 5950
+Wire Wire Line
+	8750 5950 9400 5950
 $EndSCHEMATC
