@@ -1426,8 +1426,6 @@ ALT
 Text Notes 9150 5200 0    100  ~ 0
 CTRL
 Wire Wire Line
-	4850 5950 5500 5950
-Wire Wire Line
 	2900 5950 4200 5950
 Wire Wire Line
 	1600 5950 2900 5950
@@ -1462,38 +1460,7 @@ col0
 Wire Wire Line
 	7050 4600 7050 5600
 Wire Wire Line
-	5100 4600 5100 5600
-$Comp
-L Switch:SW_Push SW69
-U 1 1 5D407DDB
-P 5300 5600
-F 0 "SW69" H 5300 5885 50  0000 C CNN
-F 1 "SW_Push" H 5300 5794 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB" H 5300 5800 50  0001 C CNN
-F 3 "" H 5300 5800 50  0001 C CNN
-	1    5300 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D69
-U 1 1 5D407DE1
-P 5500 5750
-F 0 "D69" V 5550 5950 50  0000 R CNN
-F 1 "D" V 5450 5900 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5500 5750 50  0001 C CNN
-F 3 "~" H 5500 5750 50  0001 C CNN
-	1    5500 5750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5500 5900 5500 5950
-Text Notes 5250 5200 0    100  ~ 0
-BIG
-Wire Wire Line
 	9000 3600 9000 5600
-Connection ~ 5500 5950
-Wire Wire Line
-	5500 5950 6150 5950
 Wire Wire Line
 	6400 4600 6400 5600
 $Comp
@@ -1601,4 +1568,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 4950 10050 2900
 Connection ~ 8750 4950
+Wire Wire Line
+	4850 5950 6150 5950
 $EndSCHEMATC
