@@ -1,3 +1,7 @@
 (fp_lib_table
   (lib (name arisu)(type KiCad)(uri ${KIPRJMOD}/arisu.pretty)(options "")(descr ""))
+  (lib (name MX_Switch)(type KiCad)(uri C:/dev/Fate_Parts/MX_Switch.pretty)(options "")(descr ""))
+  (lib (name Miscellaneous)(type KiCad)(uri C:/dev/Fate_Parts/Miscellaneous.pretty)(options "")(descr ""))
+  (lib (name USB_Type-C)(type KiCad)(uri C:/dev/Fate_Parts/USB_Type-C.pretty)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri C:/dev/Fate_Parts/USB_Type-C.pretty/lib)(options "")(descr ""))
 )
