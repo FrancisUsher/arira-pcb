@@ -543,9 +543,9 @@ Entry Wire Line
 	6650 5150 6750 5250
 Entry Wire Line
 	6650 5250 6750 5350
-Text Label 6450 3950 0    50   ~ 0
+Text Label 6450 2750 0    50   ~ 0
 row0
-Text Label 6450 4050 0    50   ~ 0
+Text Label 6450 2850 0    50   ~ 0
 row1
 Text Label 6450 4150 0    50   ~ 0
 row2
@@ -565,9 +565,9 @@ Text Label 6450 3350 0    50   ~ 0
 col5
 Text Label 6450 4350 0    50   ~ 0
 col6
-Text Label 6450 2850 0    50   ~ 0
+Text Label 6450 4050 0    50   ~ 0
 col7
-Text Label 6450 2750 0    50   ~ 0
+Text Label 6450 3950 0    50   ~ 0
 col8
 Text Label 6450 3450 0    50   ~ 0
 col9

@@ -1452,9 +1452,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 750  7700 2600
 Wire Wire Line
-	8350 750  8350 2600
-Wire Wire Line
-	9000 750  9000 1775
+	8350 750  8350 1775
 Text HLabel 1200 750  1    50   3State ~ 0
 col0
 Wire Wire Line
@@ -1548,12 +1546,7 @@ $EndComp
 Text Notes 9800 2200 0    100  ~ 0
 \
 Wire Wire Line
-	9000 1775 9650 1775
-Wire Wire Line
 	9650 1775 9650 2600
-Connection ~ 9000 1775
-Wire Wire Line
-	9000 1775 9000 2600
 Wire Wire Line
 	4850 5950 6150 5950
 Wire Wire Line
@@ -1571,4 +1564,13 @@ Wire Wire Line
 Wire Wire Line
 	9400 4950 9400 4900
 Connection ~ 8750 4950
+Wire Wire Line
+	9000 1775 8350 1775
+Connection ~ 8350 1775
+Wire Wire Line
+	8350 1775 8350 2600
+Wire Wire Line
+	9000 750  9000 2600
+Wire Wire Line
+	9000 1775 9650 1775
 $EndSCHEMATC
