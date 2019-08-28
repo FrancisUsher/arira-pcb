@@ -508,7 +508,7 @@ Entry Wire Line
 Entry Wire Line
 	6650 3250 6750 3350
 Entry Wire Line
-	6650 3350 6750 3450
+	6650 5650 6750 5750
 Entry Wire Line
 	6650 3450 6750 3550
 Wire Wire Line
@@ -520,13 +520,13 @@ Wire Wire Line
 Wire Wire Line
 	5100 4650 6650 4650
 Entry Wire Line
-	6650 3650 6750 3750
+	6650 5350 6750 5450
 Entry Wire Line
-	6650 3750 6750 3850
+	6650 5450 6750 5550
 Entry Wire Line
-	6650 3950 6750 4050
+	6650 2950 6750 3050
 Entry Wire Line
-	6650 4050 6750 4150
+	6650 3050 6750 3150
 Entry Wire Line
 	6650 4150 6750 4250
 Entry Wire Line
@@ -538,7 +538,7 @@ Entry Wire Line
 Entry Wire Line
 	6650 2750 6750 2850
 Entry Wire Line
-	6650 4950 6750 5050
+	6650 5550 6750 5650
 Entry Wire Line
 	6650 5150 6750 5250
 Entry Wire Line
@@ -555,21 +555,21 @@ Text Label 6450 5150 0    50   ~ 0
 col0
 Text Label 6450 5250 0    50   ~ 0
 col1
-Text Label 6450 4950 0    50   ~ 0
+Text Label 6450 5350 0    50   ~ 0
 col2
-Text Label 6450 3750 0    50   ~ 0
+Text Label 6450 5450 0    50   ~ 0
 col3
-Text Label 6450 3650 0    50   ~ 0
+Text Label 6450 5550 0    50   ~ 0
 col4
-Text Label 6450 3350 0    50   ~ 0
+Text Label 6450 5650 0    50   ~ 0
 col5
-Text Label 6450 4350 0    50   ~ 0
-col6
-Text Label 6450 4050 0    50   ~ 0
-col7
-Text Label 6450 3950 0    50   ~ 0
-col8
 Text Label 6450 3450 0    50   ~ 0
+col6
+Text Label 6450 3050 0    50   ~ 0
+col7
+Text Label 6450 2950 0    50   ~ 0
+col8
+Text Label 6450 4350 0    50   ~ 0
 col9
 Text Label 6400 3250 0    50   ~ 0
 col10
@@ -712,19 +712,19 @@ Wire Wire Line
 Wire Wire Line
 	5100 3250 6650 3250
 Wire Wire Line
-	5100 3350 6650 3350
+	5100 5650 6650 5650
 Wire Wire Line
 	5100 3450 6650 3450
 Wire Wire Line
-	5100 3650 6650 3650
+	5100 5350 6650 5350
 Wire Wire Line
-	5100 3750 6650 3750
+	5100 5450 6650 5450
 Wire Wire Line
-	5100 3950 6650 3950
+	5100 2950 6650 2950
 Wire Wire Line
-	5100 4050 6650 4050
+	5100 3050 6650 3050
 Wire Wire Line
-	5100 4950 6650 4950
+	5100 5550 6650 5550
 Wire Wire Line
 	5100 5150 6650 5150
 Wire Wire Line
@@ -859,14 +859,14 @@ NoConn ~ 5100 4450
 NoConn ~ 5100 4550
 Wire Wire Line
 	5100 2850 6650 2850
-NoConn ~ 5100 5650
-NoConn ~ 5100 5550
-NoConn ~ 5100 5450
-NoConn ~ 5100 5350
-NoConn ~ 5100 2950
+NoConn ~ 5100 3350
+NoConn ~ 5100 4950
+NoConn ~ 5100 3750
+NoConn ~ 5100 3650
+NoConn ~ 5100 3950
 Wire Wire Line
 	2650 1200 3650 1200
-NoConn ~ 5100 3050
+NoConn ~ 5100 4050
 $Comp
 L Connector:USB_C_Plug_USB2.0 P1
 U 1 1 5D65F9CC
