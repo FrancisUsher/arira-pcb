@@ -524,8 +524,6 @@ Entry Wire Line
 Entry Wire Line
 	6650 5450 6750 5550
 Entry Wire Line
-	6650 2950 6750 3050
-Entry Wire Line
 	6650 3050 6750 3150
 Entry Wire Line
 	6650 4150 6750 4250
@@ -547,10 +545,6 @@ Text Label 6450 2750 0    50   ~ 0
 row0
 Text Label 6450 2850 0    50   ~ 0
 row1
-Text Label 6450 4150 0    50   ~ 0
-row2
-Text Label 6450 4250 0    50   ~ 0
-row3
 Text Label 6450 5150 0    50   ~ 0
 col0
 Text Label 6450 5250 0    50   ~ 0
@@ -563,19 +557,13 @@ Text Label 6450 5550 0    50   ~ 0
 col4
 Text Label 6450 5650 0    50   ~ 0
 col5
-Text Label 6450 3450 0    50   ~ 0
-col6
-Text Label 6450 3050 0    50   ~ 0
-col7
-Text Label 6450 2950 0    50   ~ 0
-col8
 Text Label 6450 4350 0    50   ~ 0
 col9
-Text Label 6400 3250 0    50   ~ 0
+Text Label 6450 4650 0    50   ~ 0
 col10
 Text Label 6400 3150 0    50   ~ 0
 col11
-Text Label 6400 4650 0    50   ~ 0
+Text Label 6400 3250 0    50   ~ 0
 col12
 $Comp
 L Device:R R4
@@ -720,8 +708,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 5450 6650 5450
 Wire Wire Line
-	5100 2950 6650 2950
-Wire Wire Line
 	5100 3050 6650 3050
 Wire Wire Line
 	5100 5550 6650 5550
@@ -855,7 +841,6 @@ F 3 "~" H 8700 4100 50  0001 C CNN
 	1    8700 4100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5100 4450
 NoConn ~ 5100 4550
 Wire Wire Line
 	5100 2850 6650 2850
@@ -911,8 +896,23 @@ Wire Wire Line
 	2050 1400 2100 1400
 NoConn ~ 1900 1400
 NoConn ~ 1900 1500
+NoConn ~ 5100 4450
+Entry Wire Line
+	6650 2950 6750 3050
 Wire Bus Line
 	7050 2650 7050 5800
 Wire Bus Line
 	6750 2750 6750 5800
+Wire Wire Line
+	5100 2950 6650 2950
+Text Label 6450 2950 0    50   ~ 0
+col8
+Text Label 6450 4250 0    50   ~ 0
+row3
+Text Label 6450 3050 0    50   ~ 0
+col7
+Text Label 6450 3450 0    50   ~ 0
+col6
+Text Label 6450 4150 0    50   ~ 0
+row2
 $EndSCHEMATC
