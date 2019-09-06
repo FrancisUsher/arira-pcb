@@ -1126,7 +1126,7 @@ U 1 1 5C65D625
 P 9200 3600
 F 0 "SW57" H 9200 3885 50  0000 C CNN
 F 1 "SW_Push" H 9200 3794 50  0000 C CNN
-F 2 "MX_Switch:SW_Cherry_MX_2.25u_PCB_ReversedStabilizers" H 9200 3800 50  0001 C CNN
+F 2 "MX_Switch:SW_Cherry_MX_1.75u_PCB" H 9200 3800 50  0001 C CNN
 F 3 "" H 9200 3800 50  0001 C CNN
 	1    9200 3600
 	1    0    0    -1  
@@ -1451,8 +1451,6 @@ Wire Wire Line
 	7050 750  7050 2600
 Wire Wire Line
 	7700 750  7700 2600
-Wire Wire Line
-	8350 750  8350 1775
 Text HLabel 1200 750  1    50   3State ~ 0
 col0
 Wire Wire Line
@@ -1521,39 +1519,8 @@ F 3 "~" H 9400 4750 50  0001 C CNN
 $EndComp
 Text Notes 9075 4200 0    100  ~ 0
 META
-$Comp
-L Switch:SW_Push SW64
-U 1 1 5D4B4965
-P 9850 2600
-F 0 "SW64" H 9850 2885 50  0000 C CNN
-F 1 "SW_Push" H 9850 2794 50  0000 C CNN
-F 2 "MX_Switch:SW_Cherry_MX_1.00u_PCB" H 9850 2800 50  0001 C CNN
-F 3 "" H 9850 2800 50  0001 C CNN
-	1    9850 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D64
-U 1 1 5D4B496B
-P 10050 2750
-F 0 "D64" V 10100 2950 50  0000 R CNN
-F 1 "D" V 10000 2900 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 10050 2750 50  0001 C CNN
-F 3 "~" H 10050 2750 50  0001 C CNN
-	1    10050 2750
-	0    -1   -1   0   
-$EndComp
-Text Notes 9800 2200 0    100  ~ 0
-\
-Wire Wire Line
-	9650 1775 9650 2600
 Wire Wire Line
 	4850 5950 6150 5950
-Wire Wire Line
-	9400 5950 10050 5950
-Connection ~ 9400 5950
-Wire Wire Line
-	10050 2900 10050 5950
 Connection ~ 9000 4600
 Wire Wire Line
 	9000 4600 9000 5600
@@ -1565,12 +1532,7 @@ Wire Wire Line
 	9400 4950 9400 4900
 Connection ~ 8750 4950
 Wire Wire Line
-	9000 1775 8350 1775
-Connection ~ 8350 1775
-Wire Wire Line
-	8350 1775 8350 2600
-Wire Wire Line
 	9000 750  9000 2600
 Wire Wire Line
-	9000 1775 9650 1775
+	8350 750  8350 2600
 $EndSCHEMATC

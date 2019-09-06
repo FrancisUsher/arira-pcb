@@ -899,10 +899,6 @@ NoConn ~ 1900 1500
 NoConn ~ 5100 4450
 Entry Wire Line
 	6650 2950 6750 3050
-Wire Bus Line
-	7050 2650 7050 5800
-Wire Bus Line
-	6750 2750 6750 5800
 Wire Wire Line
 	5100 2950 6650 2950
 Text Label 6450 2950 0    50   ~ 0
@@ -915,4 +911,8 @@ Text Label 6450 3450 0    50   ~ 0
 col6
 Text Label 6450 4150 0    50   ~ 0
 row2
+Wire Bus Line
+	7050 2650 7050 5800
+Wire Bus Line
+	6750 2750 6750 5800
 $EndSCHEMATC
